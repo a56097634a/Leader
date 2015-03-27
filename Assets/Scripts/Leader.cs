@@ -16,7 +16,4 @@ public class Leader : MonoBehaviour {
 			transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
 	}
-	void OnMouseDown() {
-		Debug.Log ("hahaha");
-	}
 }
