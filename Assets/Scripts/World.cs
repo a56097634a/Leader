@@ -4,8 +4,10 @@ using System.Collections;
 
 
 public class World : MonoBehaviour {
-	
-	public const int numOfSwarmlings = 20;
+
+	public static GameObject lastSwarmling;
+
+	public const int numOfSwarmlings = 30;
 	float worldRadius = 15f;
 	public Transform Swarmling;
 	
